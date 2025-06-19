@@ -1,0 +1,28 @@
+###################################################################
+Here , curr is Equal to Tail Node , whose Next is Empty i.e None 
+and this wont let enter the Tail Node in While Loop , if USED
+
+curr.next != None
+
+def __str__(self):
+        result=""
+        curr=self.head
+        while curr.next != None:
+            result+=str(curr.data)+"->"  
+            curr=curr.next
+        return result[:-2]
+
+###################################################################
+Here , curr is Equal to None , whose Next Does not exist ,there is no such 
+attribute to none, USing This We Can Access The Tail Node , And TAil Nod 
+enter The While Loop
+
+curr != None
+
+def __str__(self):
+        result=""
+        curr=self.head
+        while curr != None:
+            result+=str(curr.data)+"->"  
+            curr=curr.next
+        return result[:-2]

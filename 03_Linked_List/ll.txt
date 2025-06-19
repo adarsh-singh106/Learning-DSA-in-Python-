@@ -1,0 +1,24 @@
+What is a LL
+
+1. Node 
+2. Create a LL 
+3. Len 
+4. insert from head   #1
+5. traverse/print       #2
+6. insert from Tail (append)
+7. insert in middle (insertion)
+
+*********clear()**************  # 3
+delete from head
+delete from tail (pop)
+# To Delete The curr Tail , just make the tail.next = None, this means Lsdt second Element WIll be New Tail
+        """curr != none  ---> Curr Stops At None , and After Loop Completion Curr = none
+           curr.next != None  --->  Curr stops At Tail , curr = Tail
+           curr.next.next != None  ---> curr Stops At Last second Element , Curr = Last second Node 
+        """
+delete by value (remove)
+
+*********search************* # 4
+search by value (find)
+search by index -> del L[0]
+search by index(indexing)
